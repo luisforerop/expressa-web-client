@@ -1,11 +1,12 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import ViolencesProvider from '../src/context/ViolencesContext'
+import Header from '../src/components/layout/Header'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      Aquí va el header
+      <Header/>
       <ViolencesProvider>
         <Component {...pageProps} />
       </ViolencesProvider>
