@@ -1,0 +1,24 @@
+.violenceContainer {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+}
+
+.embedVideo {
+  position: relative;
+  display: block;
+  border: none;
+  border-radius: 20px;
+}
+
+.titleViolence {
+  text-align: center;
+  margin: 10px 0;
+  font-weight: normal;
+  background-color: rgb(209, 202, 202);
+  outline: 2px solid rgb(209, 202, 202);
+  outline-offset: 1px;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+}
