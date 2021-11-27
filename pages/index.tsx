@@ -1,9 +1,11 @@
 import type { NextPage } from 'next'
+import PrincipalView from '../src/views/PrincipalView'
 
 const Home: NextPage = () => {
   return (
     <div>
-      Espéranos pronto  
+      <PrincipalView/>
+      
     </div>
   )
 }
