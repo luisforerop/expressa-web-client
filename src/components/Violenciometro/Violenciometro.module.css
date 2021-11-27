@@ -1,0 +1,33 @@
+
+
+.violenciometerContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 40px;
+}
+
+.button {
+  display: block;
+  color: #FFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  width: 120px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.buttonALERTA {
+  background-color: #F1C40F;
+}
+
+.buttonREACCIONA {
+  background-color: #E67E22;
+
+}
+
+.buttonURGENTE {
+  background-color: #E74C3C;
+
+}
