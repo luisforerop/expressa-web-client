@@ -16,13 +16,13 @@ const Violence: FC<ViolenceProps> = ({ src, title, id }) => {
   const router = useRouter()
 
   const urlTitle = title.replaceAll(' ', '-')
-  const { embedVideo, violenceContainer, titleViolence } = styles
+  const { imageViolence, violenceContainer, titleViolence } = styles
 
   const handler = (e: any) => {
     e.preventDefault()
     //router.push(`/compartir/${urlTitle}`)
     router.push(`https://hackaton-3-gqktl.ondigitalocean.app/violences/${id}`)
-  
+
     if (setCurrentViolences) setCurrentViolences(`${id}`)
   }
   return (
@@ -30,6 +30,7 @@ const Violence: FC<ViolenceProps> = ({ src, title, id }) => {
       <div
         className={violenceContainer}
       >
+        {/*
         <Iframe
           url="http://www.youtube.com/embed/jhgVu2lsi_k"
           width="100%"
@@ -41,11 +42,17 @@ const Violence: FC<ViolenceProps> = ({ src, title, id }) => {
             console.log('cargando');
           }}
         />
+        */}
+        <img
+          src="https://assets.afcdn.com/album/D20161004/phalbm24932471.jpg" 
+          alt="" 
+          className={imageViolence}
+        />
         <h3 className={titleViolence} onClick={handler} >
           {title}
         </h3>
       </div>
-      
+
     </>
   )
 }
