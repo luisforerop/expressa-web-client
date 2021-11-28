@@ -17,10 +17,10 @@ const Violence: FC<ViolenceProps> = ({ src, title, id }) => {
 
   const urlTitle = title.replaceAll(' ', '-')
   const { imageViolence, violenceContainer, titleViolence } = styles
-
+  console.log(src);
+  
   const handler = (e: any) => {
     e.preventDefault()
-    //router.push(`/compartir/${urlTitle}`)
     router.push(`https://hackaton-3-gqktl.ondigitalocean.app/violences/${id}`)
 
     if (setCurrentViolences) setCurrentViolences(`${id}`)
@@ -44,7 +44,7 @@ const Violence: FC<ViolenceProps> = ({ src, title, id }) => {
         />
         */}
         <img
-          src="https://assets.afcdn.com/album/D20161004/phalbm24932471.jpg" 
+          src={src} 
           alt="" 
           className={imageViolence}
         />
