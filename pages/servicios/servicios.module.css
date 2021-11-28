@@ -1,0 +1,82 @@
+.general{
+    height: 51vh;
+}
+
+.titleservicios{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.boton1{
+    text-align: center;
+    border-radius: 82% 18% 78% 22% / 0% 100% 0% 100%; 
+    border: 3px solid black;
+    color: black;
+    background-color:  white;
+    transition-duration: 0.4s;
+    margin-left: 30%;
+    padding: 2%;
+    margin-bottom: 1%;
+    height: 120px;
+    width: 300px;
+}
+.boton1:hover {
+    background-color:   #d7bde2 ;
+    border: 3px solid  #d7bde2 ;
+    color: black;
+  }
+.boton2{
+    text-align: center;
+    border-radius: 82% 18% 78% 22% / 0% 100% 0% 100%;  
+    border: 3px solid black;
+    color: black;
+    background-color:  white;
+    transition-duration: 0.4s;
+    margin-left: 3%;
+    margin-right: 10%;
+    padding: 2%;
+    margin-bottom: 1%;
+    height: 120px;
+    width: 300px;
+}
+.boton2:hover {
+    background-color:   #d7bde2 ;
+    border: 3px solid  #d7bde2 ;
+    color: black;
+  }
+.boton3{
+    text-align: center;
+    border-radius: 82% 18% 78% 22% / 0% 100% 0% 100%; 
+    border: 3px solid black;
+    color: black;
+    background-color:  white;
+    transition-duration: 0.4s;
+    margin-left: 30%;
+    padding: 2%;
+    margin-bottom: 1%;
+    height: 120px;
+    width: 300px;
+}
+.boton3:hover {
+    background-color:   #d7bde2 ;
+    border: 3px solid  #d7bde2 ;
+    color: black;
+  }
+.boton4{
+    text-align: center;
+    border-radius: 82% 18% 78% 22% / 0% 100% 0% 100%; 
+    border: 3px solid black;
+    color: black;
+    background-color:  white;
+    transition-duration: 0.4s;
+    margin-left: 3%;
+    margin-right: 10%;
+    padding: 2%;
+    margin-bottom: 1%;
+    height: 120px;
+    width: 300px;
+}
+.boton4:hover {
+    background-color:   #d7bde2 ;
+    border: 3px solid  #d7bde2 ;
+    color: black;
+  }
