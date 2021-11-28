@@ -8,7 +8,7 @@ const useGetViolencesList = () => {
   const [isFetching, setIsFetching] = useState(true)
   useEffect(() => {
     setIsFetching(true)
-    fetch('https://hackaton-3-gqktl.ondigitalocean.app/api/violences/search')
+    fetch('https://hackaton-3-gqktl.ondigitalocean.app/api/violences/search?type=&level=&page=0&size=30')
       .then(response => response.json())
       .then(data => {
         setViolencesList(data.list)
