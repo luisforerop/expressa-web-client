@@ -1,3 +1,13 @@
 .stadisticContainer {
+}
+
+.subStadisticContainer {
+  margin-top: 50px;
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.subStadisticContainer > div {
+  width: 40%;
 }
